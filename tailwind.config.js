@@ -9,6 +9,7 @@ export default {
       colors: {
         "light": "#C7B5B5",
         "dark": "#56453F",
+        "red": "#F41515"
       },
       fontFamily: {
         "font1": "Arya",
