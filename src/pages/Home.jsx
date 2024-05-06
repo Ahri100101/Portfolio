@@ -9,8 +9,9 @@ const Home = () => {
             <img src={Eirie} alt="Ariz Picture" className="w-72" />
             <p className="mb-5">UI/UX/Graphic Designer and Frontend Developer</p>
             <a href="https://www.canva.com/design/DAF6wRQfInU/sMB2HVFAXpSuFPKsjYLUlA/view?utm_content=DAF6wRQfInU&utm_campaign=designshare&utm_medium=link&utm_source=editor">
-                <button className="bg-gradient-to-b from-light to-dark py-2 px-5 rounded-xl mb-5 shadow-lg">VIEW CURRICULUM VITAE</button>
+                <button className="bg-gradient-to-b from-light to-dark py-2 px-5 rounded-xl shadow-lg">VIEW CURRICULUM VITAE</button>
             </a>
+            <br />
         </div>
     )
 }

@@ -2,6 +2,8 @@ import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/eilogo.png";
 import Home from "./Home";
 import About from "./About";
+import Skills from "./Skills";
+import Designs from "./Designs";
 
 const Nav = () => {
     return (
@@ -23,6 +25,8 @@ const Nav = () => {
                 <div className="bg-light h-full overflow-y-auto bg-opacity-25 backdrop-blur-sm p-7">
                     <Home />
                     <About />
+                    <Skills />
+                    <Designs />
                 </div>
             </div>
         </div>
