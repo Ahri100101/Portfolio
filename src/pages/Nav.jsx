@@ -4,6 +4,8 @@ import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
 import Designs from "./Designs";
+import Certs from "./Certs";
+import Contacts from "./Contacts";
 
 const Nav = () => {
     return (
@@ -27,6 +29,8 @@ const Nav = () => {
                     <About />
                     <Skills />
                     <Designs />
+                    <Certs />
+                    <Contacts />
                 </div>
             </div>
         </div>

@@ -42,7 +42,7 @@ const Skills = () => {
             <div className="flex flex-wrap justify-between text-white w-full">
                 {skills.map((item, index) => (
                     <div key={index} className="border-[1px] w-[10rem] h-auto rounded-lg mb-3">
-                        <p className="text-center">{item.skill}</p>
+                        <p>{item.skill}</p>
                     </div>
                 ))}
             </div>
