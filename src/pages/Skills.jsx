@@ -7,6 +7,7 @@ const Skills = () => {
         { skill: 'Fast Learner' },
         { skill: 'Flexible' },
         { skill: 'Leader' },
+        { skill: 'Responsible' },
         { skill: 'Teamwork' },
         { skill: 'Time Management' },
         { skill: 'Willingness to Learn' },

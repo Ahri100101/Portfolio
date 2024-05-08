@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/eilogo.png";
+import ImageLinks from "../components/ImageLinks"
 import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
@@ -13,7 +13,7 @@ const Nav = () => {
             <nav className="flex-col overflow-hidden top-0 w-full h-auto py-5 pl-5">
                 <div className="flex justify-between bg-light rounded-l-3xl p-5 bg-opacity-25 backdrop-blur-sm">
                     <div className="flex items-center">
-                        <Link to="#home"><img src={logo} alt="Logo" className="w-7" /></Link>
+                        <Link to="#home"><img src={ImageLinks.eilogo} alt="Logo" className="w-7" /></Link>
                     </div>
                     <NavItem to="#home" icon="home">Home</NavItem>
                     <NavItem to="#about" icon="person">About</NavItem>
