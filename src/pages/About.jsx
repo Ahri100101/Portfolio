@@ -30,8 +30,8 @@ const About = () => {
         { title: 'Age', info: `${age} Years Old` },
         { title: 'Sex', info: 'Female' },
         { title: 'School', info: 'Pamantasan ng Lungsod ng Maynila' },
-        { title: 'Course', info: 'Bachelor of Science in Information Technology' },
-        { title: 'Training', info: 'Frontend Developer and UI/UX/Graphic Designer' },
+        { title: 'Course', info: 'BS in Information Technology' },
+        { title: 'Training', info: 'Frontend Developer, UI/UX/Graphic Designer' },
         { title: 'Company', info: 'Monheim Distributors, Inc.' },
     ];
 
@@ -39,7 +39,7 @@ const About = () => {
         <div className="flex flex-col text-white font-font1" id="about">
             <div className="text-center">
                 <p className="text-light text-3xl font-bold mb-5">About</p>
-                <p className="text-justify">
+                <p className="text-justify"> 
                     Hello! My name is Ariz Ann C. Salazar. My family and friends
                     call me “A”. Presently, I am residing in Imus City, Cavite, Philippines.
                     I am {age} years old and a Bachelor of Science in Information Technology
